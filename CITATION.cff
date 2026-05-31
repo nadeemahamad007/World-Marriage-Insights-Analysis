@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "World Marriage Insights Analysis"
+message: "If you use this project or repository in academic or project work, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Ahamad"
+    given-names: "Nadeem"
+repository-code: "https://github.com/nadeemahamad007/World-Marriage-Insights-Analysis"
+license: "MIT"
+abstract: "An MCA major project using exploratory data analysis, machine learning, clustering, and a Streamlit dashboard to analyze the World Marriage Dataset."
+keywords:
+  - data-science
+  - exploratory-data-analysis
+  - machine-learning
+  - clustering
+  - streamlit
+  - marriage-dataset
