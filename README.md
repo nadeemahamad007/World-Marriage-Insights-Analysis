@@ -1,67 +1,69 @@
-# World Marriage Analysis Dashboard
+# World Marriage Insights Analysis
 
 ## Overview
 
-This project presents a comprehensive Exploratory Data Analysis (EDA), Machine Learning, and Interactive Dashboard solution developed on the World Marriage Dataset.
+World Marriage Insights Analysis is an MCA major project focused on exploratory data analysis, machine learning, clustering, and dashboard-based insight generation using the World Marriage Dataset.
 
-The dataset contains more than 271,000 records collected across 232 countries between 1970 and 2017. The project analyzes global marriage patterns, demographic trends, marital status distributions, and country-level variations using modern Data Science techniques.
+The project studies global marriage patterns across more than 271,000 records collected from 232 countries between 1970 and 2017. It combines Python-based EDA, classification models, clustering techniques, and a Streamlit dashboard to explore demographic behavior, marital status trends, and country-level differences.
 
-The project was developed as an MCA Final Year Major Project.
+This repository is designed as a complete GitHub-ready academic project showcase with source code, dataset, report files, and dashboard assets in one place.
 
-Recommended GitHub repository name: `world-marriage-analysis-dashboard`
+## Key Highlights
+
+- 271,604+ records analyzed
+- 232 countries covered
+- Time range from 1970 to 2017
+- Exploratory Data Analysis with statistical and visual insights
+- Machine learning models for marital status classification
+- K-Means and DBSCAN clustering for pattern discovery
+- Interactive Streamlit dashboard for dynamic exploration
 
 ## Objectives
 
-- Analyze global marriage trends from 1970-2017
-- Perform detailed exploratory data analysis
-- Discover hidden demographic patterns
-- Build machine learning classification models
-- Apply clustering techniques for country segmentation
-- Develop an interactive Streamlit dashboard
-- Generate actionable insights for researchers and policymakers
+- Analyze global marriage and divorce trends across countries
+- Study marital status variation by age group and gender
+- Identify country-level demographic patterns
+- Build classification models using scikit-learn
+- Apply clustering algorithms for segmentation analysis
+- Present findings through an interactive dashboard
 
 ## Dataset Information
 
 | Attribute | Description |
 | --- | --- |
-| Country | Country name |
-| AgeGroup | Age category |
-| Sex | Male/Female |
-| MaritalStatus | Marriage status |
-| DataProcess | Survey/Census method |
-| Data Collection Start Year | Beginning year |
-| Data Collection End Year | Ending year |
-| Data Source | Source information |
+| `Country` | Country name |
+| `AgeGroup` | Age category |
+| `Sex` | Gender category |
+| `MaritalStatus` | Marital status label |
+| `DataProcess` | Survey or census method |
+| `Data Collection (Start Year)` | Starting year of collection |
+| `Data Collection (End Year)` | Ending year of collection |
+| `Data Source` | Source reference |
 
-### Dataset Statistics
+### Dataset Summary
 
-- Total Records: 271,604+
-- Countries Covered: 232
-- Time Span: 1970-2017
-- Missing Values: 0
-- Duplicate Records: 0
+- Total records: `271,604+`
+- Countries covered: `232`
+- Time span: `1970-2017`
+- Missing values: `0`
+- Duplicate rows: `0`
 
-## Technologies Used
-
-### Programming Language
+## Tech Stack
 
 - Python
-
-### Libraries
-
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 - Plotly
-- Scikit-Learn
+- Scikit-learn
 - Streamlit
 - Joblib
 
 ## Project Structure
 
 ```text
-world-marriage-analysis-dashboard/
+World-Marriage-Insights-Analysis/
 |-- app/
 |   `-- app.py
 |-- data/
@@ -83,28 +85,28 @@ world-marriage-analysis-dashboard/
 
 ## Exploratory Data Analysis
 
-The project includes analysis such as:
+The EDA portion of the project includes:
 
-- Age group distribution
+- Age group distribution analysis
 - Marital status distribution
-- Gender-wise analysis
-- Country-wise marriage trends
-- Country-wise divorce trends
-- Correlation analysis
-- Time-series analysis
-- Demographic insights
+- Gender-based comparison
+- Country-wise marriage patterns
+- Country-wise divorce patterns
+- Correlation heatmap analysis
+- Time-based trend analysis
+- Dataset diagnostics and summary statistics
 
-## Machine Learning Models
+## Machine Learning And Clustering
 
-### Classification
+### Classification Models
 
 - Logistic Regression
 - Decision Tree Classifier
 - Random Forest Classifier
 
-### Clustering
+### Clustering Models
 
-- K-Means Clustering
+- K-Means
 - DBSCAN
 
 ### Evaluation Metrics
@@ -113,80 +115,38 @@ The project includes analysis such as:
 - Precision
 - Recall
 - F1 Score
-- Confusion Matrix
+- Classification Report
 
-## Dashboard Features
+## Streamlit Dashboard Features
 
-### Interactive Filters
+- Country filter
+- Gender filter
+- Age group filter
+- Marital status filter
+- Marital status distribution chart
+- Country-level marriage and divorce comparison
+- Trend analysis over time
+- Clustering visualization
+- Filtered data preview
 
-- Country selection
-- Gender selection
-- Age group selection
-- Marital status selection
+## Reports Included
 
-### Visualizations
+This repository already includes the following academic and supporting files:
 
-- Histograms
-- Bar charts
-- Box plots
-- Correlation heatmaps
-- Country comparison charts
-- Cluster visualizations
+- `reports/Major_Project_Report.pdf`
+- `reports/Dashboard-Code.pdf`
+- `reports/Dashboard-Screenshot.pdf`
+- `reports/World-Marriage-Code.pdf`
 
-### Key Insights
+Screenshots for the GitHub project gallery can be added later in the `images/` folder.
 
-- Marriage trends
-- Divorce trends
-- Gender analysis
-- Country rankings
-- Population segmentation
-
-## Project Workflow
-
-1. Data collection
-2. Data cleaning
-3. Data transformation
-4. Exploratory data analysis
-5. Feature engineering
-6. Machine learning
-7. Clustering analysis
-8. Dashboard development
-9. Insight generation
-
-## Results
-
-- Identified global marriage patterns
-- Discovered country-specific demographic trends
-- Segmented countries using clustering algorithms
-- Developed an interactive dashboard for dynamic analysis
-- Generated insights useful for social researchers and policymakers
-
-## Future Enhancements
-
-- Deep learning models
-- Real-time data integration
-- Geographical visualizations
-- Predictive trend forecasting
-- Cloud deployment
-
-## Included Reports And Supporting Files
-
-The repository already includes:
-
-- Major project final report PDF
-- Dashboard code PDF
-- Dashboard screenshot PDF
-- EDA and project code PDF
-
-You can still add PNG screenshots to `images/` later for a stronger GitHub presentation.
-
-## Setup
+## How To Run
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/world-marriage-analysis-dashboard.git
-cd world-marriage-analysis-dashboard
+git clone https://github.com/nadeemahamad007/World-Marriage-Insights-Analysis.git
+cd World-Marriage-Insights-Analysis
 ```
 
 ### 2. Install dependencies
@@ -195,78 +155,49 @@ cd world-marriage-analysis-dashboard
 pip install -r requirements.txt
 ```
 
-### 3. Add the dataset
-
-Place the dataset at:
-
-```text
-data/World_Marriage_Dataset.csv
-```
-
-### 4. Run the Streamlit app
+### 3. Run the Streamlit dashboard
 
 ```bash
 streamlit run app/app.py
 ```
 
-### 5. Run the EDA and ML script
+### 4. Run the EDA and ML script
 
 ```bash
 python notebooks/World_Marriage_EDA.py
 ```
 
-## Important Code Improvement
+## Portability Improvement
 
-Avoid hardcoded local paths such as:
-
-```python
-pd.read_csv("D:\\MCA Life\\...")
-```
-
-Use project-relative paths instead:
+The original project used machine-specific local file paths. This repository version has been cleaned so the code reads the dataset using a project-relative path:
 
 ```python
 from pathlib import Path
-import pandas as pd
-import streamlit as st
 
 data_path = Path(__file__).resolve().parents[1] / "data" / "World_Marriage_Dataset.csv"
-
-try:
-    df = pd.read_csv(data_path)
-except FileNotFoundError:
-    st.error("Dataset not found. Add data/World_Marriage_Dataset.csv")
-    st.stop()
 ```
 
-## Files Included For GitHub Upload
+This makes the project easier to run after cloning from GitHub.
 
-- `README.md`
-- `app/app.py`
-- `notebooks/World_Marriage_EDA.py`
-- `data/World_Marriage_Dataset.csv`
-- `requirements.txt`
-- `reports/Major_Project_Report.pdf`
-- `reports/Dashboard-Code.pdf`
-- `reports/Dashboard-Screenshot.pdf`
-- `reports/World-Marriage-Code.pdf`
-- `LICENSE`
-- `.gitignore`
+## Results
 
-## Git Commands
+- Identified broad global marriage trends over multiple decades
+- Highlighted country-specific marital status differences
+- Built machine learning models for predictive analysis
+- Applied clustering methods to reveal hidden groupings
+- Delivered an interactive dashboard for practical exploration
 
-```bash
-git init
-git add .
-git commit -m "Initial commit - World Marriage Analysis Dashboard"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/world-marriage-analysis-dashboard.git
-git push -u origin main
-```
+## Future Improvements
+
+- Add more dashboard screenshots in `images/`
+- Include deployment instructions for Streamlit Cloud
+- Add deeper model comparison and tuning
+- Add geographical visualizations
+- Add forecast-based analysis for future trend prediction
 
 ## Author
 
-Nadeem Ahamad  
+**Nadeem Ahamad**  
 Master of Computer Applications (MCA)  
 Major Project 2025
 
