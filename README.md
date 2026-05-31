@@ -189,7 +189,37 @@ This repository already includes:
 - Dashboard screenshot PDF
 - Additional project code PDF
 
-You can upload screenshots later to the `images/` folder for a stronger repository presentation and social preview.
+## Screenshots
+
+### Dashboard And Analysis Preview
+
+<img width="567" height="275" alt="Dashboard Screenshot 1" src="https://github.com/user-attachments/assets/1cdc94e1-9275-4ca5-9c73-a7b7862f5444" />
+
+<img width="535" height="427" alt="Dashboard Screenshot 2" src="https://github.com/user-attachments/assets/c6bd6516-d5d0-4060-84f2-e6d86ce004a9" />
+
+<img width="519" height="714" alt="Dashboard Screenshot 3" src="https://github.com/user-attachments/assets/ae1ede96-3bfc-4eac-bf96-74815d79457d" />
+
+<img width="805" height="767" alt="Dashboard Screenshot 4" src="https://github.com/user-attachments/assets/9888e5f6-9e2c-48a4-8be6-8c7fdfa090f6" />
+
+<img width="802" height="348" alt="Dashboard Screenshot 5" src="https://github.com/user-attachments/assets/91447669-c8ea-4ea9-9058-92c705def898" />
+
+<img width="802" height="417" alt="Dashboard Screenshot 6" src="https://github.com/user-attachments/assets/e6d1a10d-853a-4f8f-b761-c25d6c5cf6bc" />
+
+<img width="804" height="457" alt="Dashboard Screenshot 7" src="https://github.com/user-attachments/assets/c7deab2e-0fb1-4b4a-8988-b17e04be2baf" />
+
+<img width="802" height="449" alt="Dashboard Screenshot 8" src="https://github.com/user-attachments/assets/cb30eb4f-78ed-4412-bd37-7fc97d60a673" />
+
+<img width="751" height="463" alt="Dashboard Screenshot 9" src="https://github.com/user-attachments/assets/0d115428-7062-43c1-8efd-c981955a7daa" />
+
+<img width="751" height="471" alt="Dashboard Screenshot 10" src="https://github.com/user-attachments/assets/1ca11610-0844-44fe-ac6f-41efe4c7536b" />
+
+<img width="751" height="451" alt="Dashboard Screenshot 11" src="https://github.com/user-attachments/assets/6c56998a-876c-49a5-95e3-a1f6d9cd81a7" />
+
+<img width="799" height="480" alt="Dashboard Screenshot 12" src="https://github.com/user-attachments/assets/2226dd06-498f-4a8c-91ee-742c8e83fc44" />
+
+<img width="751" height="365" alt="Dashboard Screenshot 13" src="https://github.com/user-attachments/assets/e33eb16e-cd8b-4987-8db7-2ef0ba94658c" />
+
+<img width="751" height="480" alt="Dashboard Screenshot 14" src="https://github.com/user-attachments/assets/dea2ce5e-f9b9-48ba-8a9c-22bf5457e591" />
 
 ## Portability Improvement
 
